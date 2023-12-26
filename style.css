@@ -1,0 +1,17 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+html body {display: grid;
+ height: 100vh;
+ place-items: center;
+background: violet;}
+
+.main-div {width: 365px;
+background-color: white;
+padding: 30px;
+border-radius: 5px;}
+
+.login-form {font-size: 29px;
+font-weight: 70px;}
