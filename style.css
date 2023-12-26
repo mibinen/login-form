@@ -11,7 +11,62 @@ background: violet;}
 .main-div {width: 365px;
 background-color: white;
 padding: 30px;
-border-radius: 5px;}
+border-radius: 5px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);}
 
-.login-form {font-size: 29px;
-font-weight: 70px;}
+
+.login-form {text-align: center;
+ font-size: 29px;
+font-weight: 600;}
+
+.main-div .social-icons {margin-top: 20px;
+display: flex;
+justify-content: center;}
+
+.social-icons a {display: block;
+height: 45px;
+width: 100%;
+line-height: 45px;
+text-align: center;
+border-radius: 5px;
+font-size: 20px;
+text-decoration: none;}
+
+.social-icons span {margin-left: 5px;
+font-size: 18px;}
+
+.social-icons a:first-child {background-color: #4267b2;
+margin-right: 5px;
+color: white;
+}
+
+.social-icons a:first-child:hover {background-color: #33579f;}
+
+.social-icons a:last-child {background-color: #0685f5;
+ margin-left: 5px;
+color: white;}
+
+.social-icons a:last-child:hover {background-color: #0a6fc8;}
+
+form {margin-top: 25px;}
+
+form .input-box {height: 50px;
+width: 100%;
+position:relative;
+background: red;
+margin-top: 15px;}
+
+.input-box input {height: 100%;width: 100%;
+ outline: none;
+ border: 1px solid lightgrey;
+ font-size: 16px;
+ padding-left: 35px;
+}
+
+input:focus{border: 1.5px solid #cb29be;}
+
+.input-box .icons {position: absolute;
+top: 50%;
+left: 15px;
+color: grey;
+transform: translateY(-50%);}
